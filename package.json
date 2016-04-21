@@ -1,0 +1,6 @@
+{
+  "name": "kirbytextraw",
+  "description": "Kirby Plugin to strip the leading and trailing <p>-tags from kirbytext",
+  "license": "GNU GPLv3",
+  "type": "kirby-plugin"
+}
