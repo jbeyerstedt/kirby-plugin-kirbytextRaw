@@ -1,16 +1,16 @@
 <?php
 /*
- * kirby 2 plugin - kirbytextRaw
- * parse text as kirbytext but remove the p tags
+ * Kirby 2 plugin - kirbytextRaw
+ * Parse Markdown-formatted text as kirbytext without enclosing <p> tags
  *
- * copyright: Jannik Beyerstedt | http://jannikbeyerstedt.de | code@jannikbeyerstedt.de
- * license: http://www.gnu.org/licenses/gpl-3.0.txt GPLv3 License
+ * Copyright: Jannik Beyerstedt | http://jannikbeyerstedt.de | code@jannikbeyerstedt.de
+ * License: http://www.gnu.org/licenses/gpl-3.0.txt GPLv3 License
  * v1.0.1 (27.11.2014)
  *
- * Sample Usage:
+ * Sample usage:
  * <?php echo $page->text()->readingtime() ?>
  *
- * changelog:
+ * Changelog:
  * v1.0.1: fix problem with </br> tags
  */
 
