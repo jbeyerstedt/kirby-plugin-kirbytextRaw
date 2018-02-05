@@ -1,6 +1,8 @@
 {
   "name": "kirbytextraw",
-  "description": "Kirby Plugin to strip the leading and trailing <p>-tags from kirbytext",
-  "license": "GNU GPLv3",
-  "type": "kirby-plugin"
+  "description": "Kirby Plugin to get kirbytext() without the enclosing <p>-tags",
+  "author": "Jannik Beyerstedt <code@jannikbeyerstedt.de>",
+  "version": "1.0.2",
+  "type": "kirby-plugin",
+  "license": "GNU GPLv3"
 }

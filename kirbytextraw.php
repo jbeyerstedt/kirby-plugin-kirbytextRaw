@@ -5,13 +5,10 @@
  *
  * Copyright: Jannik Beyerstedt | http://jannikbeyerstedt.de | code@jannikbeyerstedt.de
  * License: http://www.gnu.org/licenses/gpl-3.0.txt GPLv3 License
- * v1.0.1 (27.11.2014)
+ * v1.0.2 (21.01.2018)
  *
  * Sample usage:
  * <?php echo $page->text()->readingtime() ?>
- *
- * Changelog:
- * v1.0.1: fix problem with </br> tags
  */
 
 function kirbytextRaw($content) {
