@@ -8,7 +8,7 @@
  * v1.0.2 (21.01.2018)
  *
  * Sample usage:
- * <?php echo $page->text()->readingtime() ?>
+ * <?php echo $page->text()->kirbytextRaw() ?>
  */
 
 function kirbytextRaw($content) {
