@@ -15,6 +15,6 @@ function kirbytextRaw($content) {
   $text = kirbytext($content);
   return preg_replace('/(.*)<\/p>/', '$1', preg_replace('/<p>(.*)/', '$1', $text));
 }
-field::$methods['kirbytextRaw'] = function($field) {
+field::$methods['kirbytextRaw'] = field::$methods['ktr'] = function($field) {
   return kirbytextRaw($field->value);
 };
