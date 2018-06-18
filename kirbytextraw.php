@@ -9,12 +9,9 @@
  *
  * Sample usage:
  * <?php echo $page->text()->kirbytextRaw() ?>
+ * <?php echo $page->text()->ktr() ?>
  */
 
-function kirbytextRaw($content) {
-  $text = kirbytext($content);
-  return preg_replace('/(.*)<\/p>/', '$1', preg_replace('/<p>(.*)/', '$1', $text));
-}
-field::$methods['kirbytextRaw'] = field::$methods['ktr'] = function($field) {
-  return kirbytextRaw($field->value);
+field::$methods['kirbytextRaw'] = field::$methods['ktr'] = function ($field) {
+    return str::substr(kirbytext($field->value), 3, -4);
 };
