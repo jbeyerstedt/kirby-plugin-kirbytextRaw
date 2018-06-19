@@ -2,7 +2,7 @@
 by Jannik Beyerstedt from Hamburg, Germany  
 [jannikbeyerstedt.de](http://jannikbeyerstedt.de) | [Github](https://github.com/jbeyerstedt)  
 **License:** GNU GPL v3  
-**version:** v1.0.2
+**version:** v1.0.3
 
 ## Introduction
 **Get kirbytext() without enclosing `<p>` tags**
