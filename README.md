@@ -12,7 +12,7 @@ Sometimes it is necessary to get some text parsed as kirbytext, but without the 
 ## User Manual
 
 #### Installation
-Store this file in
+Store this file in and rename it to `kirbytextRaw`
 
     site/plugins/
 
@@ -21,7 +21,7 @@ Use it in your templates like any other Kirby function, eg `kirbytext()`:
 
     $page->title()->kirbytextRaw()
 
-Simply replace the `kirbytext()` field method with `kirbytextRaw()`.
+Simply replace the `kirbytext()` field method with `kirbytextRaw()` or the short form `kt()` with `ktr()`.
 
 
 ## Contribution
