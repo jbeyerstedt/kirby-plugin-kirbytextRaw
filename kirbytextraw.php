@@ -5,7 +5,7 @@
  *
  * Copyright: Jannik Beyerstedt | http://jannikbeyerstedt.de | code@jannikbeyerstedt.de
  * License: http://www.gnu.org/licenses/gpl-3.0.txt GPLv3 License
- * v1.1.0 (20.06.2018)
+ * v1.1.0 (2018-06-20)
  *
  * Sample usage:
  * <?php echo $page->text()->kirbytextRaw() ?>
