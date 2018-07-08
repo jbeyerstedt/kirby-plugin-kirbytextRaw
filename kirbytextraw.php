@@ -5,16 +5,17 @@
  *
  * Copyright: Jannik Beyerstedt | http://jannikbeyerstedt.de | code@jannikbeyerstedt.de
  * License: http://www.gnu.org/licenses/gpl-3.0.txt GPLv3 License
- * v1.0.3 (2018-06-03)
+ * v1.1.0 (2018-06-20)
  *
  * Sample usage:
  * <?php echo $page->text()->kirbytextRaw() ?>
+ * <?php echo $page->text()->ktr() ?>
  */
 
-function kirbytextRaw($content) {
-  $text = kirbytext($content);
-  return preg_replace('/(.*)<\/p>/', '$1', preg_replace('/<p>(.*)/', '$1', $text));
-}
-field::$methods['kirbytextRaw'] = field::$methods['ktr'] = function($field) {
-  return kirbytextRaw($field->value);
+field::$methods['kirbytextRaw'] = field::$methods['ktr'] = function ($field) {
+    if ('<p>' === str::substr($field, 0, 3) && '</p>' === str::substr($field, -4)) {
+        return str::substr($field, 3, -4);
+    } else {
+        return $field;
+    }
 };

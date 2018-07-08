@@ -2,7 +2,8 @@
 by Jannik Beyerstedt from Hamburg, Germany  
 [jannikbeyerstedt.de](http://jannikbeyerstedt.de) | [Github](https://github.com/jbeyerstedt)  
 **License:** GNU GPL v3  
-**version:** v1.0.3
+
+**version:** v1.1.0
 
 ## Introduction
 **Get kirbytext() without enclosing `<p>` tags**
@@ -22,7 +23,6 @@ Use it in your templates like any other Kirby function, eg `kirbytext()`:
     $page->title()->kirbytextRaw()
 
 Simply replace the `kirbytext()` field method with `kirbytextRaw()` or the short form `kt()` with `ktr()`.
-
 
 ## Contribution
 Feel free to fork this repository and make it better. If there is a bug I missed, please let me know by opening an issue.
