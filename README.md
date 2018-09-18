@@ -2,8 +2,14 @@
 by Jannik Beyerstedt from Hamburg, Germany  
 [jannikbeyerstedt.de](http://jannikbeyerstedt.de) | [Github](https://github.com/jbeyerstedt)  
 **License:** GNU GPL v3  
-
 **version:** v1.1.1
+
+## Notice for Kirby 3
+This plugin has been adapted for kirby 3, but because major changes are needed, a new branch was created.
+You will find the kibry 3 compatible version in the branch `kirby3`.
+
+If anyone needs composer support, please add it via a pull-request, because I don't use composer myself.
+
 
 ## Introduction
 **Get kirbytext() without enclosing `<p>` tags**
