@@ -5,6 +5,8 @@ by Jannik Beyerstedt from Hamburg, Germany
 **version:** v1.1.1
 
 ## Notice for Kirby 3
+This plugin might become obsolete in some use cases, because of the new kirby function `kirbytags()`, which renders all kirbytags, but no markdown.
+
 This plugin has been adapted for kirby 3, but because major changes are needed, a new branch was created.
 You will find the kibry 3 compatible version in the branch `kirby3`.
 
