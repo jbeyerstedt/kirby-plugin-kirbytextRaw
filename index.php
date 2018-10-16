@@ -12,16 +12,16 @@
 
 Kirby::plugin('jbeyerstedt/kirbytextraw', [
   'fieldMethods' => [
-    'kirbytextRaw' => function ($field) { kirbytextRaw ($field); },
-    'ktr' => function ($field) { kirbytextRaw ($field); }
+    'kirbytextRaw' => function ($field) { return kirbytextRaw ($field); },
+    'ktr' => function ($field) { return kirbytextRaw ($field); }
   ]
 ]);
 
 function kirbytextRaw($content) {
-  $text = $field->kirbytext();
+  $text = kirbytext($content);
   if ('<p>' === str::substr($text, 0, 3) && '</p>' === str::substr($text, -4)) {
-  return str::substr($text, 3, -4);
+    return str::substr($text, 3, -4);
   } else {
-  return $text;
+    return $text;
   }
 }
