@@ -15,8 +15,7 @@
 field::$methods['kirbytextRaw'] = field::$methods['ktr'] = function ($field) {
     $text = $field->kirbytext();
     if ('<p>' === str::substr($text, 0, 3) && '</p>' === str::substr($text, -4)) {
-        return str::substr($text, 3, -4);
-    } else {
-        return $text;
+        $text = str::substr($text, 3, -4);
     }
+    return $text;
 };
