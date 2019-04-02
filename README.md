@@ -1,14 +1,14 @@
-# Kirby kirbytextRaw Plugin
+# kirbytextRaw Plugin for Kirby CMS v2
 by Jannik Beyerstedt from Hamburg, Germany  
 [jannikbeyerstedt.de](http://jannikbeyerstedt.de) | [Github](https://github.com/jbeyerstedt)  
 **License:** GNU GPL v3  
 **version:** v1.1.1
 
 ## Notice for Kirby 3
-This plugin has been adapted for kirby 3, but because major changes are needed, a new branch was created.
-You will find the kibry 3 compatible version in the branch `kirby3`.
-
-If anyone needs composer support, please add it via a pull-request, because I don't use composer myself.
+This plugin has been adapted for Kirby 3, but the new version has also introduced new core methods, which make this plugin obsolete. There will be no additional development for Kirby 3.
+Take a look at:
+- [$field->kirbytags()](https://getkirby.com/docs/reference/templates/field-methods/kirbytags) to parse KirbyTags, but no Markdown
+- (since 3.1.0) [$field->kirbytextinline()](https://getkirby.com/docs/reference/templates/field-methods/kirbytextinline) to parse KirbyTags and Markdown, but in an inline friendly way. This is the functionality, I wanted to achieve, when I created this plugin for Kirby 2.
 
 
 ## Introduction
